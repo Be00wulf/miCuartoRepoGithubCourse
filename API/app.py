@@ -17,3 +17,7 @@ def get_superheroes():
 
 
 
+@app.get("/librosMajo")
+def get_libros():
+    rows = ["iliada", "Odisea", "Divina Comedia", "Las mil y una noches"]
+    return rows
